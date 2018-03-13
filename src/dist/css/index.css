@@ -1,0 +1,45 @@
+body{
+    height: 100%;
+    background-color: #f2f2f2;
+    font-size: 13px;
+    font-family: 'Microsoft Yahei', Arial, 'Lantinghei SC', 'Open Sans', 'Hiragino Sans GB', STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.section1 {
+    background-color: #242528;
+    width:350px;
+    height: 500px;
+    overflow: hidden;
+}
+.scroll-wrap{
+}
+.top-scroll{
+    position: relative;
+    top:0;
+}
+.line-info{
+    padding:10px;
+}
+.company-name{
+    color:#69a5e1;
+    display: inline-block;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    width:220px;
+    vertical-align: middle;
+    transition: all .2s;
+}
+.company-name:hover{
+    color: #fff;
+}
+.esdate{
+    display: inline-block;
+    color:#999;
+    width: 90px;
+    float: right;
+    vertical-align: middle;
+    text-align: right;
+}
